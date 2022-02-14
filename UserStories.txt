@@ -1,0 +1,52 @@
+In this Hackathon you will be presented with the requirements to create a static website for DF Cinemas.
+
+DF Cinemas has approached us to create a modern looking website promoting their cinemas. In the first iteration, they would like to be able to provide their customers with general information about their cinemas, schedule and opening hours and allow them to subscribe to receive some promotional materials.
+
+The business representatives have worked with our UI/UX team and they have created the following low fidelity mock-ups. They understand that their customers view their pages on different devices and want us to accommodate to this. The site will be split into three pages –
+
+home page with information about the Cinemas;
+a 'schedule' page displaying opening hours and movies showing this week;
+a 'sign-up' page to gather some information about the user.
+The navigation between the pages should be easy and straightforward, with a navigation bar on top of each page.
+
+
+
+
+User Stories
+
+The User Stories have been prioritized and ordered from 1 (most important) to 5 (least important):
+
+As a User, I want to be presented with a home page, so that I can see some general information and pictures showing DF Cinemas.
+
+As a User, I want to be able to see the opening hours of the cinema, so that I know when the cinema is open.
+As a User, I want to be able to see the movie schedule for this week, so that I know what is on and at what time.
+As a User, I want to be able to subscribe to the website using a form, so that I can receive the latest promotions and information.
+As a User, I want to be able to access the website on any device, so that I can access the information I need on the device of my choice.
+Last modified: Friday, 11 February 2022, 1:49 PM
+
+
+
+JS --- 
+
+ Acceptance Criteria
+The following table gives information about the validation that should be implemented on form fields. Supplementary information is provided under the table.
+
+Form Field	Validation	Further Information
+title	Required	
+firstName	Required	Only lower and upper case letters are allowed, otherwise “Only lower and upper case letters are allowed” message will be displayed below the First Name field in red and the field itself will have red border. Only names longer than 1 character and shorter than 15 characters are allowed, otherwise a message reading “The First Name entered is either too short or too long.” will be displayed below the First Name field and the field will have red border.
+lastName	Required	As above but applied to lastName
+email	Required	Every valid email address follows this pattern: at least one character, @ sign, one or more characters, . character and one or more characters. In case an invalid email address is entered a message reading “Email address not valid” will be displayed below the field in red and the field’s border will change to red.
+
+If information entered into a required field is valid, the field’s border will remain unchanged and no additional message will be displayed.
+The validation is performed immediately after the user finishes typing into a field and the cursor is changed into another field.
+Other fields on the form do not require validation.
+
+
+Coding Style and Standards
+Code should be written using the latest JavaScript specification.
+All JavaScript code should be tested
+Code should be appropriately indented using a 4-space indent style.
+HTML, CSS and JavaScript should be kept in their own files where possible.
+
+Additional User Requirements
+The submit button should be disabled until the required fields on the form are valid.
